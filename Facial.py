@@ -2,7 +2,7 @@ import cv2 as cv
 import os
 import imutils
 
-modelo = "Fotos Darwin"
+modelo = "" #añadir el nombre de la persona a tomar las fotos
 ruta = "C:/Users/abela/Documents/ProyectosPython/Reconocimiento de imagenes/Reconocimiento facial"
 ruta_completa = ruta + "/" + modelo
 if not os.path.exists(ruta_completa):
